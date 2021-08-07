@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://neuroresus.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "NeuroResus"

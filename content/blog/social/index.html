@@ -1,0 +1,83 @@
+---
+author: Alison Hill & Eric Anderson
+categories:
+- Theme Features
+date: "2021-01-28"
+draft: false
+excerpt: This theme offers built-in Font Awesome icons for organizing your collection
+  of social accounts and their links. Use icons to help visitors find you wherever
+  you want to be found, and learn how to show or hide them in your site's header,
+  footer, homepage, about page, and contact form.
+layout: single
+subtitle: Social icons may appear on several pages throughout your site. Learn how
+  to set them up, and control where they show up.
+title: Set up your social
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>There are five places where you can choose to show social icons. Here is the tl;dr:</p>
+<ul>
+<li>site header (set in <code>config.toml</code>),</li>
+<li>site footer (set in <code>config.toml</code>),</li>
+<li><a href="/">homepage</a> (set in <code>content/_index.md</code>),</li>
+<li><a href="/about">about page</a> in the sidebar (set in <code>content/about/sidebar/index.md</code>), and</li>
+<li><a href="/contact">contact page</a> (set in <code>content/form/contact.md</code>).</li>
+</ul>
+<p>Read on to learn how to set up your social icons, and how to show/hide them.</p>
+<div id="configure-social" class="section level2">
+<h2>Configure social</h2>
+<p>Wherever you end up wanting to show your social icons, you’ll need to start by setting up the links in your site <code>config.toml</code> file. Open that up and scroll down to the <code>[[params.social]]</code> section. The start of it looks like this:</p>
+<pre class="toml"><code>[params]
+  &lt;!--snip snip--&gt;
+  
+  # Social icons may appear on your site header, footer, and other pages
+  # Add as many icons as you like below
+  # Icon pack &quot;fab&quot; includes brand icons, see: https://fontawesome.com/icons?d=gallery&amp;s=brands&amp;m=free
+  # Icon pack &quot;fas&quot; includes solid icons, see: https://fontawesome.com/icons?d=gallery&amp;s=solid&amp;m=free
+  # Icon pack &quot;far&quot; includes regular icons, see: https://fontawesome.com/icons?d=gallery&amp;s=regular&amp;m=free
+  [[params.social]]
+      icon      = &quot;github&quot; # icon name without the &#39;fa-&#39;
+      icon_pack = &quot;fab&quot;
+      url       = &quot;https://github.com/apreshill/apero&quot;
+  [[params.social]] &lt;!--lather, rinse, repeat--&gt;</code></pre>
+<p>For each link, you’ll need to start a new portion that begins with <code>[[params.social]]</code>. Then, pick your <code>icon</code> and <code>icon_pack</code> from the <a href="https://fontawesome.com/">Font Awesome</a> free icon library:</p>
+<ul>
+<li><p>Icon pack “fab” includes <a href="https://fontawesome.com/icons?d=gallery&amp;s=brands&amp;m=free">brand icons</a></p></li>
+<li><p>Icon pack “fas” includes <a href="https://fontawesome.com/icons?d=gallery&amp;s=solid&amp;m=free">solid icons</a></p></li>
+<li><p>Icon pack “far” includes <a href="https://fontawesome.com/icons?d=gallery&amp;s=regular&amp;m=free">regular icons</a></p></li>
+</ul>
+<p>Finally, add the <code>url</code> that you would like users to go to when they click on that icon. All external links (i.e., those that start with <code>http</code>) will open in a new tab (that is, <code>target="_blank"</code>); relative links to pages within the site will open in the same window.</p>
+<p>Now you should be all set to show/hide your social icons. Each of these will pull the social icons and urls from the settings you just created in your site configuration file.</p>
+</div>
+<div id="show-social-in-site-header-and-footer" class="section level2">
+<h2>Show social in site header and footer</h2>
+<p>Let’s start with the header and footer, as those are site-wide. Open up your site <code>config.toml</code> file again and scroll down to the <code>[params]</code> section (it is actually :up: from where you configured these icons):</p>
+<pre class="toml"><code>[params]
+  &lt;!--snip snip--&gt;
+  
+  # show/hide social icons in site header &amp; footer
+  # configure social icons and links below in [[params.social]]
+  socialInHeader = false
+  socialInFooter = true</code></pre>
+<p>That was easy!</p>
+</div>
+<div id="show-social-in-homepage" class="section level2">
+<h2>Show social in homepage</h2>
+<p>Open up <code>content/_index.md</code>. That file’s YAML controls what you see on the homepage. Set <code>show_social_links</code> like so:</p>
+<pre class="yaml"><code>show_social_links: true # specify social accounts in site config</code></pre>
+<p>If you set this to <code>true</code> to show the icons on the homepage, your social icons in the footer will not show up even when you set <code>socialInFooter = true</code>, so as not to litter your site with too many icons.</p>
+</div>
+<div id="show-social-in-about-page-sidebar" class="section level2">
+<h2>Show social in about page sidebar</h2>
+<p>Open up <code>content/about/sidebar/index.md</code>. That file’s YAML controls what you see in the sidebar on the about page. Set <code>show_social_links</code> like so:</p>
+<pre class="yaml"><code>show_social_links: true # specify social accounts in site config</code></pre>
+</div>
+<div id="show-social-in-contact-page" class="section level2">
+<h2>Show social in contact page</h2>
+<p>You may use the YAML for your contact page (located in <code>content/form/contact.md</code>):</p>
+<pre class="yaml"><code>---
+show_social_links: true # specify social accounts in site config
+---</code></pre>
+</div>

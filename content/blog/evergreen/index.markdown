@@ -8,26 +8,30 @@ excerpt: Good stuff
 layout: single
 subtitle: Checking out citations in blogdown
 title: An evergreen post
-bibliography: [bib.bib]
+bibliography: bib.bib
+csl: critical-care-medicine.csl
+link-citations: true
 ---
 
-Testing out the citation features (Scott K. Aberegg, Haponik, and Terry 2005). Scott K. Aberegg, Richards, and O’Brien (2010)
+The ICH score is a widely used clinical grading scale to help communicate the severity of intracerebral hemorrhage to guide triage, intervention, and research decisions. The original paper reporting the development of the score
 
-Not sure if this is working.
+Prior to the ICH Score, there were several prognostic markers for mortality and functional outcome after ICH, but they were complicated and not easily utilized at the bedside. The ICH Score was developed to be used as a **grading scale**, not a prognostic marker ([1](#ref-blumeSecondgenerationPvaluesImproved2018)). Then it was.
 
-The quick brown fox jumped over the lazy dog.
+Why the formatting is bad? Let’s try something else.
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+## Header
 
-<div id="ref-abereggOmissionBiasDecision2005" class="csl-entry">
+Many people will look at a scan and determine that it “looks bad,” but don’t necessarily elucidate why it is bad. Is there mass effect on the brain stem? Is there upward herniation? Is there brain stem involvement? Is this consistent with what is found on the patient’s exam? This needs to be explored more.
 
-Aberegg, Scott K., Edward F. Haponik, and Peter B. Terry. 2005. “Omission Bias and Decision Making in Pulmonary and Critical Care Medicine.” *Chest* 128 (3): 1497–1505. <https://doi.org/10.1378/chest.128.3.1497>.
+Relate to the above, many questions revolve around “Would they want a trach/PEG?” This implies that the trach/PEG is a destination, and that the neurological disability is an afterthought.
 
-</div>
+### References
 
-<div id="ref-aberegg2010a" class="csl-entry">
+<div id="refs" class="references csl-bib-body">
 
-Aberegg, Scott K, D Roxanne Richards, and James M O’Brien. 2010. “RDeseealrtcha Inflation: A Bias in the Design of Randomized Controlled Trials in Critical Care Medicine,” 7.
+<div id="ref-blumeSecondgenerationPvaluesImproved2018" class="csl-entry">
+
+<span class="csl-left-margin">1. </span><span class="csl-right-inline">Blume JD, D’Agostino McGowan L, Dupont WD, et al.: Second-generation p-values: Improved rigor, reproducibility, & transparency in statistical analyses. *PLOS ONE* 2018; 13:e0188299</span>
 
 </div>
 

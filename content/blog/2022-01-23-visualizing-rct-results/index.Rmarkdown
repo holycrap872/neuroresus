@@ -3,9 +3,9 @@ title: Visualizing RCT Results
 author: Nikhil Patel
 date: '2022-01-23'
 slug: []
-categories: []
-tags: []
-subtitle: ''
+categories: [RCT]
+tags: ["Intracerebral Hemorrhage"]
+subtitle: 'This is a subtitle'
 excerpt: ''
 series: ~
 layout: single

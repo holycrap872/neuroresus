@@ -20,19 +20,21 @@ library(ggthemes)
 library(scales) # for text labels on plots
 library(forcats)
 library(sjmisc)
+library(showtext)
+library(systemfonts)
 
-theme_set(theme_minimal())
 
 ## Global options
-options(max.print="75")
-opts_chunk$set(echo=FALSE,
-	             cache=TRUE,
-               prompt=FALSE,
-               tidy=TRUE,
-               comment=NA,
-               message=FALSE,
-               warning=FALSE)
-opts_knit$set(width=75)
+# options(max.print="75")
+# opts_chunk$set(echo=FALSE,
+# 	             cache=TRUE,
+#                prompt=FALSE,
+#                tidy=TRUE,
+#                comment=NA,
+#                message=FALSE,
+#                warning=FALSE)
+# opts_knit$set(width=75)
+
 ```
 
 # INTERACT-2 Visualization
@@ -93,7 +95,7 @@ interact2 %>%
   scale_fill_manual(values = myColors, breaks = c("0 - No symptoms", "1 - No significant disability", "2 - Slight disability",
                                                    "3 - Moderate disability", "4 - Moderately severe disability", "5 - Severe disability",
                                                   "6 - Dead")) +
-  theme_minimal()
+  theme_minimal(base_family = "Outfit")
 
 
 ```

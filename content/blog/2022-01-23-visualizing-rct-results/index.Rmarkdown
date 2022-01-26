@@ -20,11 +20,8 @@ library(ggthemes)
 library(scales) # for text labels on plots
 library(forcats)
 library(sjmisc)
-library(showtext)
-library(systemfonts)
 
-
-## Global options
+# # Global options
 # options(max.print="75")
 # opts_chunk$set(echo=FALSE,
 # 	             cache=TRUE,
@@ -66,152 +63,60 @@ glimpse(interact2)
 First we have the plot for the mRS at 90 days.
 Things still to tweak:
 
-- Fonts
 - Dotted lines in between bars to indicate the differences between various cutpoints on the mRS
-- Fixing size of components to fit onto web page
 - Adding table on the bottom with odds ratios of primary outcome cutoff vs. other cutoffs?
 - Ultimately may be better to add a tabbed format to display p-value functions
 
-```{r stacked bar chart, echo=FALSE}
+
+
+```{r stacked bar chart, echo=FALSE, fig.asp = 0.6, fig.width = 10}
 
 myColors = c("#ffbe63", "#f39264", "#d76c6a", "#ae4f6e", "#7c3c6b", "#462d5d", "#0a1e45") #https://learnui.design/tools/data-color-picker.html#palette
+
+theme_set(theme_minimal(base_family = "Outfit", base_size = 18))
+
+# Change the settings
+update_geom_defaults("text", list(colour = "grey20", family = theme_get()$text$family))
 
 
 interact2 %>%
   ggplot(aes(x = group,
              y = patient.percent,
              fill = forcats::fct_rev(mRS.90))) + #reverses the order to show lower mRS values to the left
-  geom_bar(stat = "identity", position = "fill", width = 0.5) +
-  geom_text(aes(label = patients),
-          position = position_stack(vjust = 0.5),
-          color = "white") +
+  geom_bar(stat = "identity", width = 0.5) +
   coord_flip() +
-  scale_y_continuous(name = "Patients (%)",
-                     labels = scales::percent_format(accuracy = 1),
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1),
                      breaks = c(seq(0,1,0.2))) +
-  scale_x_discrete(name = NULL, 
-                   labels = c(word_wrap("Guideline-Directed Treatment (n = 1430)", 29),word_wrap("Intensive Treatment (n = 1399)", 20))) +
-  labs(fill = "modified Rankin Score at 90 days") +
+  scale_x_discrete(labels = c("Guideline-Directed Treatment\n(n = 1430)","Intensive Treatment\n(n = 1399)")) +
+  labs(title = "INTERACT-2",
+       subtitle = "modified Rankin score at 90 days",
+       caption = "Data: 10.1056/NEJMoa1214609\n\nGraphic by @nikhilpatelmd",
+       x = NULL,
+       y = "Patients (%)",
+       fill = NULL) +
   scale_fill_manual(values = myColors, breaks = c("0 - No symptoms", "1 - No significant disability", "2 - Slight disability",
                                                    "3 - Moderate disability", "4 - Moderately severe disability", "5 - Severe disability",
                                                   "6 - Dead")) +
-  theme_minimal(base_family = "Outfit")
-
-
-```
-
-## Visualizing the p-value Function
-
-This chart represents the p-value function of the above results.
-
-```{r p-value function, include=FALSE}
-
-library(concurve)
-
-curve1 <- curve_rev(point = 0.87, LL = 0.77, UL = 1.01, measure = "ratio")
-
-pvalue <- ggcurve(curve1[[1]], type = "c", measure = "ratio", 
-        nullvalue = c(1), levels = c(0.90, 0.95, 0.99)) +
-   labs(title = expression(paste(italic(P), "-value (Compatibility) Function")),
-        subtitle = expression(paste(italic(P),
-                   "-values for a range of odds ratios (OR)")),
-        x = "Odds Ratio (OR)",
-        y = expression(paste(italic(P),"-value"))) +
-  # geom_vline(xintercept = 1.61, lty = 1, color = "gray", alpha = 0.2) +
-  # geom_vline(xintercept = 2.59, lty = 1, color = "gray", alpha = 0.2) +
-  theme(plot.title = element_text(size = 12),
-        plot.subtitle = element_text(size = 11),
-        axis.title.x = element_text(size = 12),
-        axis.title.y = element_text(size = 12),
-        text = element_text(size = 11))
-
-
-svalue <- ggcurve(data = curve1[[1]], type = "s", measure = "ratio", nullvalue = c(1),
-  title = "S-value (Surprisal) Function",
-  subtitle = "S-Values (surprisals) for a range of odds ratios (OR)",
-  xaxis = "Odds Ratio", yaxis1 = "S-value (bits of information)") +
-  theme(plot.title = element_text(size = 12),
-        plot.subtitle = element_text(size = 11),
-        axis.title.x = element_text(size = 12),
-        axis.title.y = element_text(size = 12),
-        text = element_text(size = 11))
-```
-
-```{r echo=FALSE}
-pvalue
-```
-
-## Visualizing the s-value Function
-
-This chart represents the s-value function of the above results.
-
-```{r echo=FALSE}
-svalue
-
-```
-
-## Odds Ratios of Secondary Outcomes
-
-### Template Plot
-
-This is the example taken from [J Stuart Carlton's website](https://www.jscarlton.net/post/2015-10-24visualizinglogistic/). 
-
-```{r echo=FALSE}
-
-library(ggplot2)
-
-# Create labels
-boxLabels = c("Past encounter", "Mutualism WVO:\nNon-hunting wildlife experiences", "Domination WVO:\nEthics of hunting", "Domination WVO:\nWildlife management", "Age", "Education", "Negative attitudes toward box turtles", "Gender")
-
-# Enter summary data. boxOdds are the odds ratios (calculated elsewhere), boxCILow is the lower bound of the CI, boxCIHigh is the upper bound.
-
-df <- data.frame(
-  yAxis = length(boxLabels):1,
-  boxOdds = c(2.23189,1.315737,1.22866,.8197413,.9802449,.9786673,.6559005,.5929812),
-  boxCILow = c(.7543566,1.016,.9674772,.6463458,.9643047,.864922,.4965308,.3572142),
-  boxCIHigh = c(6.603418,1.703902,1.560353,1.039654,.9964486,1.107371,.8664225,.9843584)
-)
-
-# Plot
-p <- df %>%
-  ggplot(aes(x = boxOdds, y = yAxis)) +
-  geom_vline(aes(xintercept = 1), size = .25, linetype = "dashed") +
-  geom_errorbarh(aes(xmax = boxCIHigh, xmin = boxCILow), size = .5, height = .2, color = "gray50") +
-  geom_point(size = 3.5, color = "orange") +
-  theme_bw() +
-  theme(panel.grid.minor = element_blank()) +
-  scale_y_continuous(breaks = df$yAxis, labels = boxLabels) +
-  scale_x_continuous(breaks = seq(0,7,1) ) +
-  coord_trans(x = "log10") +
-  ylab("") +
-  xlab("Odds ratio (log scale)") +
-  annotate(geom = "text", y =1.1, x = 3.5, label ="Model p < 0.001\nPseudo R^2 = 0.10", size = 3.5, hjust = 0) + ggtitle("Intention to remove box turtles from the road")
-
-p
-
-```
-
-
-```{r echo=FALSE}
-
-# Create labels
-boxLabelsHem = c("Intensive Group", "Guideline Group")
-
-interact2or <- data.frame(
-  yAxisHem = length(boxLabelsHem):1,
-  odds = c(2.3, 3.7),
-  CIlow = c(0.2, 1.6),
-  CIhigh = c(4.4, 5.8))
-  
-hematomagrowth <- interact2or %>%
-  ggplot(aes(x = odds, y = yAxisHem)) +
-  geom_point(size = 3.5, color = "orange") +
-  geom_errorbarh(data = interact2or,
-                 aes(xmax = CIhigh, xmin = CIlow), size = .5, height = .2, color = "gray50") +
-  ylab("") +
-  scale_y_continuous(breaks = interact2or$yAxisHem, labels = boxLabelsHem) +
-
-  theme_minimal()
-
-hematomagrowth
+  geom_text(aes(label = patients),
+          position = position_stack(vjust = 0.5),
+          color = "white",
+          inherit.aes = TRUE,
+          size = 5) +
+  theme(plot.title = element_text(face = "bold", hjust = 0, size = rel(1.5)),
+        plot.subtitle = element_text(hjust = 0, size = rel(1.2)),
+        plot.caption = element_text(hjust = 1, size = rel(0.5)),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = rel(0.5)),
+        panel.grid.major.x = element_line(size = .5, linetype = "dotted", color = "gray70"),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.y = element_blank(),
+        axis.text.x = element_text(size = rel(0.7)),
+        axis.text.y = element_text(size = rel(0.9)),
+        axis.title.x = element_text(size = rel(0.8), vjust = -2),
+        axis.title.y = element_text(size = rel(0.8))) +
+    guides(fill = guide_legend(direction = "horizontal"))
 ```

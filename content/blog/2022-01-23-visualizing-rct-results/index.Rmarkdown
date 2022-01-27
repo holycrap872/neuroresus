@@ -75,7 +75,7 @@ Things still to tweak:
 
 myColors = c("#ffbe63", "#f39264", "#d76c6a", "#ae4f6e", "#7c3c6b", "#462d5d", "#0a1e45") #https://learnui.design/tools/data-color-picker.html#palette
 
-theme_set(theme_minimal(base_family = "Outfit", base_size = 18))
+theme_set(theme_minimal(base_family = "Commissioner", base_size = 18))
 
 # Change the settings
 update_geom_defaults("text", list(colour = "grey20", family = theme_get()$text$family))

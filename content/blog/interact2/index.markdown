@@ -5,14 +5,11 @@ date: '2022-01-23'
 slug: [rct]
 categories: [RCT]
 tags: ["Intracerebral Hemorrhage"]
-subtitle: 'Rapid Blood-Pressure Lowering in Patients with Acute Intracerebral Hemorrhage'
-excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control).
-</br></br>
-At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
+subtitle: 'In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP < 140 mm Hg improve death or major disability at 90 days when compared to a target SBP < 180 mm Hg?'
+excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). </br></br> At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
 series: ~
 layout: single-sidebar
 ---
-
 **Published on**: 6/20/2013  
 **Journal**: New England Journal of Medicine  
 **DOI**: [10.1056/NEJMoa1214609](doi.org/10.1056/NEJMoa1214609)  
@@ -24,10 +21,6 @@ layout: single-sidebar
 The onset of intracerebral hemorrhage is often accompanied by an acute hypertensive response, which can reach very high levels and is associated with hematoma expansion and poor outcome. Previous AHA/ASA Guidelines recommended maintaining an SBP \< 180 and/or a MAP \< 110 to best balance the risks of hematoma expansion and maintaining an adequate cerebral perfusion pressure. However, this was not based on any robust evidence as no high-quality observational studies or randomized trials had been conducted.
 
 INTERACT-2 was the first randomized trial to evaluate the safety and efficacy of early intensive lowering of blood pressure on clinical outcomes.
-
-## Clinical Question
-
-In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering of blood pressure to a target SBP \< 140 mm Hg improve death or major disability at 90 days when compared to a target SBP \< 180 mm Hg?
 
 ## Patient Population
 
@@ -45,9 +38,9 @@ Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10
 
 **Management Common to Both Groups**: all patients were initiated on oral antihypertensives within 7 days of the index event with the long-term goal of achieving a systolic blood pressure \<140 mm Hg
 
-Despite the fairly large difference in blood pressure targets, there wasn't much of a difference between the two groups when examining the mean achieved systolic blood pressure, as pictured below (figure taken from online supplement).  
+Despite the fairly large difference in blood pressure targets, there wasn't much of a difference between the two groups when examining the mean achieved systolic blood pressure, as pictured below (figure taken from online supplement).
 
-![](images/INTERACT-2%20Figure%20S2.%20Mean%20Achieved%20SBP.png "Supplemental Figure")  
+![](images/INTERACT-2%20Figure%20S2.%20Mean%20Achieved%20SBP.png "Supplemental Figure")
 
 This may indicate that centers were already practicing more aggressive blood pressure control than the AHA guidelines had recommended, making it difficult to achieve separation between the two groups.
 
@@ -69,3 +62,39 @@ Things still to tweak:
 -   Dotted lines in between bars to indicate the differences between various cutpoints on the mRS
 -   Adding table on the bottom with odds ratios of primary outcome cutoff vs. other cutoffs?
 -   Ultimately may be better to add a tabbed format to display p-value functions
+
+At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This was consistent with the secondary analysis that found an **OR of 0.87 (95% CI 0.77 - 1.00)** across the entire range of the mRS.
+
+There was further evidence of benefit in the intensive-group when examining the health-related quality of life (HRQOL) data. Overall health utility was higher in the intensive blood pressure group. It's unclear how to interpret this, however, especially considering that there was a decent amount of patients from whom QoL data were missing.
+
+There was no indication of an increased frequency of adverse events; both groups had similar rates of neurological deterioration in the first 24 hours (14.5% vs 15.1%), any neurological deterioration (3.4% vs. 3.8%) or severe hypotension (0.5% vs 0.6%).
+
+While outcomes appeared better in the intensive-group, the mechanism by which this occurred is unclear. There did not seem to be a substantial difference in hematoma growth between the two groups, as measured by absolute hematoma growth at 24 hours (2 vs. 4 mL), relative hematoma growth at 24 hours (17 vs. 22%), or proportion of patients with substantial hematoma growth (Supplementary Table S2).
+
+### Subgroup Considerations
+
+There wasn't much evidence of a heterogeneity of treatment effect, although there may be a benefit to a target of \< 180 mm Hg in patients with pre-existing hypertension. There was not a suggestion that patients enrolled prior to 4 hours of symptom onset benefitted from more intensive blood pressure lowering, a group that may be at increased risk of hematoma expansion.
+
+## Interpretations and Conclusions
+
+The results of this trial suggested on OR 0.87 (0.75 - 1.01) in favor of the intensive blood-pressure group to reduce death or major disability (mRS 3-6), or an OR 0.87 (0.77 - 1.00) to reduce disability across the entire range of the mRS.
+
+The outcomes were certainly encouraging and suggested there may be a benefit of intensive blood pressure lowering to \< 140 mm Hg.
+
+However, several caveats should be kept in mind:
+
+* There was no clear evidence of decreased rates of hematoma expansion, a touted benefit of intensive blood pressure reduction. This may be due to the lack of separation regarding the achieved blood pressure between the two groups, or may just reflect that the study was underpowered. It would be difficult to argue how to resulted in improved functional outcomes, however.
+-   It is unclear what the HRQOL results signify, considering that the patients were unblinded to which group they were randomized and that QoL data is missing on 11% (intensive-group) and 14% (guideline-recommended group) of patients.
+-   A p-value of 0.04-0.06 (depending on which way you analyze the data) indicates that the results obtained are as surprising as obtaining heads on 4-5 consecutive fair coin tosses. This is not very robust, and if subsequent results come along \[\[ATACH-2\]\] that demonstrate different findings, we should remain flexible in changing our interpretation.
+
+There is certainly controversy about the use of ordinal regression. While this is discussed elsewhere, the odds ratios and corresponding confidence intervals were similar when using a conventional dichotomous mRS cutoff (OR 0.87, 0.75 - 1.01) versus ordinal regression (OR 0.87, 0.77 - 1.00). Whichever way you analyze the data, it shouldn't dramatically change the interpretation. Moreover, ordinal regression is a well-accepted
+
+Given the results of \[\[ATACH-2\]\], there is not robust evidence of any particular blood pressure target in patients presenting with ICH, and any target in the range of 140-180 mm Hg is reasonable. Most centers seem to have adopted a goal between 140-160 mm Hg.
+
+## Unanswered Questions
+
+This trial, along with the \[\[ATACH-2\]\] trial, enrolled patients with mild ICH. What is still unclear is the optimal blood pressure to target in patients with larger hematomas, where ICP considerations may warrant a different MAP goal to obtain an adequate CPP.
+
+Post-hoc analyses of this trial and \[\[ATACH-2\]\] have suggested that patients presenting very early (\< 2 hours from symptom onset) may benefit from a reduced risk of hematoma expansion with aggressive BP control, but this has not been replicated in a prospective manner. In fact, other trials have attempted to isolate patients with increased risk of hematoma expansion to target aggressive BP control, but have not demonstrated a benefit to this strategy.
+
+Other post-hoc analyses have suggested that patients presenting with very-high BP or with chronic hypertension may be harmed with aggressive BP lowering. This certainly makes physiologic sense based on the theory of shifted cerebral auto regulation in chronic hypertension, but again has not been replicated prospectively. It may be difficult to demonstrate this effect unless we have a better way to ascertain if a patient is chronically hypertensive on presentation.

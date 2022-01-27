@@ -1,14 +1,13 @@
 ---
-title: Visualizing RCT Results
+title: INTERACT-2
 author: Nikhil Patel
 date: '2022-01-23'
 slug: [rct]
 categories: [RCT]
 tags: ["Intracerebral Hemorrhage"]
-subtitle: 'Diving into the results of INTERACT-2'
+subtitle: 'Rapid Blood-Pressure Lowering in Patients with Acute Intracerebral Hemorrhage'
 excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control).
-
-
+</br></br>
 At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
 series: ~
 layout: single

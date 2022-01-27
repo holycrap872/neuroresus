@@ -2,10 +2,10 @@
 title: Visualizing RCT Results
 author: Nikhil Patel
 date: '2022-01-23'
-slug: []
+slug: [rct]
 categories: [RCT]
 tags: ["Intracerebral Hemorrhage"]
-subtitle: 'This is a subtitle'
+subtitle: 'Diving into the results of INTERACT-2'
 excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control).
 
 
@@ -16,8 +16,8 @@ layout: single
 
 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
 
-I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath.  
-  
+I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath.
+</br></br>
 
 ```{r setup, include=FALSE}
 library(knitr)
@@ -64,7 +64,7 @@ interact2 <- interact2 %>%
 
 
 #https://learnui.design/tools/data-color-picker.html#palette
-myColors = c("#ffbe63", "#f39264", "#d76c6a", "#ae4f6e", "#7c3c6b", "#462d5d", "#0a1e45") 
+myColors = c("#ffbd09", "#f39264", "#d76c6a", "#ae4f6e", "#7c3c6b", "#462d5d", "#0a1e45") 
 
 # Change the fonts
 
@@ -84,7 +84,7 @@ figure1 <- interact2 %>%
   scale_x_discrete(labels = c("Guideline-Directed Treatment\n(n = 1430)","Intensive Treatment\n(n = 1399)")) +
   labs(title = "INTERACT-2",
        subtitle = "modified Rankin score at 90 days",
-       caption = "Data: 10.1056/NEJMoa1214609\n\nGraphic by @nikhilpatelmd",
+       caption = "Data: 10.1056/NEJMoa1214609  |  Graphic by @nikhilpatelmd",
        x = NULL,
        y = "Patients (%)",
        fill = NULL) +
@@ -97,7 +97,7 @@ figure1 <- interact2 %>%
           inherit.aes = TRUE,
           size = 5) +
   theme(plot.title = element_text(face = "bold", hjust = 0, size = rel(1.5)),
-        plot.subtitle = element_text(hjust = 0, size = rel(1.2)),
+        plot.subtitle = element_text(hjust = 0, size = rel(1.1)),
         plot.caption = element_text(hjust = 1, size = rel(0.5)),
         plot.title.position = "plot",
         plot.caption.position = "plot",

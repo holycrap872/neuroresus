@@ -8,16 +8,19 @@ tags: ["Intracerebral Hemorrhage"]
 subtitle: 'In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP < 140 mm Hg improve death or major disability at 90 days when compared to a target SBP < 180 mm Hg?'
 excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
 series: ~
-layout: single-sidebar
+layout: single
 bibliography: [../../../static/references/bib.bib]
 csl: [../../../static/references/nikhil.csl]
 link-citations: true
 ---
-**Published on**: 6/20/2013
+
+::: activity-step
+**Published on**: 6/20/2013  
 **Journal**: New England Journal of Medicine  
 **DOI**: [10.1056/NEJMoa1214609](doi.org/10.1056/NEJMoa1214609)  
 **PMID**: [23713578](https://pubmed.ncbi.nlm.nih.gov/23713578)  
-**RCT Identifier**: [NCT00716079](http://clinicaltrials.gov/show/NCT00716079)
+**RCT Identifier**: [NCT00716079](http://clinicaltrials.gov/show/NCT00716079)  
+:::
 
 ## Clinical and Historical Context
 
@@ -183,7 +186,7 @@ The outcomes were certainly encouraging and suggested there may be a benefit of 
 
 However, several caveats should be kept in mind:
 
-* There was no clear evidence of decreased rates of hematoma expansion, a touted benefit of intensive blood pressure reduction. This may be due to the lack of separation regarding the achieved blood pressure between the two groups, or may just reflect that the study was underpowered. It would be difficult to argue how to resulted in improved functional outcomes, however.
+-   There was no clear evidence of decreased rates of hematoma expansion, a touted benefit of intensive blood pressure reduction. This may be due to the lack of separation regarding the achieved blood pressure between the two groups, or may just reflect that the study was underpowered. It would be difficult to argue how to resulted in improved functional outcomes, however.
 -   It is unclear what the HRQOL results signify, considering that the patients were unblinded to which group they were randomized and that QoL data is missing on 11% (intensive-group) and 14% (guideline-recommended group) of patients.
 -   A p-value of 0.04-0.06 (depending on which way you analyze the data) indicates that the results obtained are as surprising as obtaining heads on 4-5 consecutive fair coin tosses. This is not very robust, and if subsequent results come along \[\[ATACH-2\]\] that demonstrate different findings, we should remain flexible in changing our interpretation.
 
@@ -197,8 +200,13 @@ This trial, along with the \[\[ATACH-2\]\] trial, enrolled patients with mild IC
 
 Post-hoc analyses of this trial and \[\[ATACH-2\]\] have suggested that patients presenting very early (\< 2 hours from symptom onset) may benefit from a reduced risk of hematoma expansion with aggressive BP control, but this has not been replicated in a prospective manner. In fact, other trials have attempted to isolate patients with increased risk of hematoma expansion to target aggressive BP control, but have not demonstrated a benefit to this strategy.
 
-Other post-hoc analyses have suggested that patients presenting with very-high BP or with chronic hypertension may be harmed with aggressive BP lowering. This certainly makes physiologic sense based on the theory of shifted cerebral auto regulation in chronic hypertension, but again has not been replicated prospectively. It may be difficult to demonstrate this effect unless we have a better way to ascertain if a patient is chronically hypertensive on presentation.
+Other post-hoc analyses have suggested that patients presenting with very-high BP or with chronic hypertension may be harmed with aggressive BP lowering. This certainly makes physiologic sense based on the theory of shifted cerebral auto regulation in chronic hypertension, but again has not been replicated prospectively. It may be difficult to demonstrate this effect unless we have a better way to ascertain if a patient is chronically hypertensive on presentation.  </br>
 
-## Further Reading
+::: activity-step
+### Further Reading
+
+**Resource:** To learn how to style your links with color with accessibility in mind, check out the resource by WebAIM about [Link Text and Appearance](https://webaim.org/techniques/hypertext/link_text#appearance)
+
+:::
 
 ## References

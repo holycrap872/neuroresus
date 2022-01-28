@@ -6,19 +6,22 @@ slug: [rct]
 categories: [RCT]
 tags: ["Intracerebral Hemorrhage"]
 subtitle: 'In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP < 140 mm Hg improve death or major disability at 90 days when compared to a target SBP < 180 mm Hg?'
-excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). </br></br> At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
+excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
 series: ~
 layout: single-sidebar
+bibliography: [../../../static/references/bib.bib]
+csl: [../../../static/references/nikhil.csl]
+link-citations: true
 ---
-**Published on**: 6/20/2013  
+**Published on**: 6/20/2013
 **Journal**: New England Journal of Medicine  
 **DOI**: [10.1056/NEJMoa1214609](doi.org/10.1056/NEJMoa1214609)  
 **PMID**: [23713578](https://pubmed.ncbi.nlm.nih.gov/23713578)  
 **RCT Identifier**: [NCT00716079](http://clinicaltrials.gov/show/NCT00716079)
 
-## Background and Clinical Context
+## Clinical and Historical Context
 
-The onset of intracerebral hemorrhage is often accompanied by an acute hypertensive response, which can reach very high levels and is associated with hematoma expansion and poor outcome. Previous AHA/ASA Guidelines recommended maintaining an SBP \< 180 and/or a MAP \< 110 to best balance the risks of hematoma expansion and maintaining an adequate cerebral perfusion pressure. However, this was not based on any robust evidence as no high-quality observational studies or randomized trials had been conducted.
+The onset of intracerebral hemorrhage is often accompanied by an acute hypertensive response, which can reach very high levels and is associated with hematoma expansion and poor outcome. Previous AHA/ASA Guidelines @broderickGuidelinesManagementSpontaneous2007 recommended maintaining an SBP \< 180 and/or a MAP \< 110 to best balance the risks of hematoma expansion and maintaining an adequate cerebral perfusion pressure. However, this was not based on any robust evidence as no high-quality observational studies or randomized trials had been conducted.
 
 INTERACT-2 was the first randomized trial to evaluate the safety and efficacy of early intensive lowering of blood pressure on clinical outcomes.
 
@@ -148,7 +151,7 @@ figure1 <- interact2 %>%
 **Primary Outcome**: death or major disability at 90 days as defined by modified Rankin score of 3-6  
 </br>
 
-```{r echo=FALSE, fig.asp=0.6, fig.showtext=TRUE, fig.width=10}
+```{r Results, echo=FALSE, fig.asp=0.6, fig.showtext=TRUE, fig.width=10}
 
 figure1
 
@@ -195,3 +198,7 @@ This trial, along with the \[\[ATACH-2\]\] trial, enrolled patients with mild IC
 Post-hoc analyses of this trial and \[\[ATACH-2\]\] have suggested that patients presenting very early (\< 2 hours from symptom onset) may benefit from a reduced risk of hematoma expansion with aggressive BP control, but this has not been replicated in a prospective manner. In fact, other trials have attempted to isolate patients with increased risk of hematoma expansion to target aggressive BP control, but have not demonstrated a benefit to this strategy.
 
 Other post-hoc analyses have suggested that patients presenting with very-high BP or with chronic hypertension may be harmed with aggressive BP lowering. This certainly makes physiologic sense based on the theory of shifted cerebral auto regulation in chronic hypertension, but again has not been replicated prospectively. It may be difficult to demonstrate this effect unless we have a better way to ascertain if a patient is chronically hypertensive on presentation.
+
+## Further Reading
+
+## References

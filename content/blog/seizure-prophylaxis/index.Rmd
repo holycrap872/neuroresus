@@ -10,7 +10,7 @@ excerpt: ''
 series: ~
 layout: single
 bibliography: [../../../static/references/bib.bib]
-csl: [../../../static/references/clinical-radiology.csl]
+csl: [../../../static/references/nikhil.csl]
 link-citations: true
 ---
 
@@ -20,9 +20,9 @@ Incidence of seizures varies greatly, depending on the disease state, location a
 
 ## Intracerebral Tumors
 
-Seizures are common in this population. Can be the presenting symptom in 40% of patients, 20-45% develop seizures during the course of their disease @roweSeizureProphylaxisNeurocritical2014.
+Seizures are common in this population. Can be the presenting symptom in 40% of patients, 20-45% develop seizures during the course of their disease @vincentHemodynamicMonitoringSupport2021.
 
-More likely in the setting primary brain tumor vs metastatic, low-grade vs high-grade glioma, and certain specific tumor types. 
+More likely in the setting primary brain tumor vs metastatic, low-grade vs high-grade glioma, and certain specific tumor types.
 
 AAN practice parameter in 2000 concluded that seizure prophylaxis is not effective in these patients based on 12 studies (4 of which were randomized trials).
 

@@ -5,8 +5,7 @@ date: '2022-01-23'
 slug: [rct]
 categories: [RCT]
 tags: ["Intracerebral Hemorrhage"]
-subtitle: 'In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP < 140 mm Hg improve death or major disability at 90 days when compared to a target SBP < 180 mm Hg?'
-excerpt: 'INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability.'
+excerpt: "INTERACT-2 was the first large, multicenter randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset. 2839 patients were randomized to achieve a blood pressure target of < 180 mm Hg (at that time, guideline-based treatment) or < 140 mm Hg (intensive blood pressure control). </br></br> At 90 days, 55.6% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. This data is consistent with up to a 1% increase or a 25% decrease in the risk of death or major disability."
 series: ~
 layout: single
 bibliography: [../../../static/references/bib.bib]
@@ -14,7 +13,9 @@ csl: [../../../static/references/nikhil.csl]
 link-citations: true
 ---
 
-<div class="activity-step">
+<div class="meta">
+
+In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP &lt; 140 mm Hg improve death or major disability at 90 days when compared to a target SBP &lt; 180 mm Hg?
 
 **Published on**: 6/20/2013  
 **Journal**: New England Journal of Medicine  
@@ -39,6 +40,52 @@ The mean age of the population was about 63 years, with 2/3 being male and 2/3 a
 Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10 (IQR 6 - 15) and median hematoma volume of 11 mL (IQR 6-19) with approximately one-third of bleeds having intraventricular extension and the vast majority with a deep hematoma location (83%). Only about 7% of patients were intubated and 3% of patients required an EVD.
 
 ## Study Protocol
+
+### Risk of Bias Assessment
+
+#### Domain 1: Randomization
+
+**Risk of bias**: Low
+
+**1.1: Was the allocation sequence random?**: Yes
+
+**1.2: Was the allocation sequence concealed until participants were enrolled and assigned to interventions?**: Yes
+
+**1.3: Did baseline differences between intervention groups suggest a problem with the randomization process?**: No
+
+#### Domain 2: Effect of Assignment to Intervention
+
+**Risk of bias**:
+
+**2.1: Were participants aware of their assigned intervention during the trial?**:
+
+**2.2: Were carers and people delivering the interventions aware of participants’ assigned intervention during the trial?**:
+
+**2.3: Were there deviations from the intended intervention that arose because of the trial context?**:
+
+**2.4: Were these deviations likely to have affected the outcome?**:
+
+**2.5: Were these deviations from intended intervention balanced between groups?**:
+
+**2.6: Was an appropriate analysis used to estimate the effect of assignment to intervention?**:
+
+**2.7: Was there potential for a substantial impact (on the result) of the failure to analyze participants in the group to which they were randomized?**:
+
+#### Domain 3: Missing Outcome Data
+
+**Risk of bias**:
+
+**3.1: Were data for this outcome available for all, or nearly all, participants randomized?**:
+
+**3.2: Is there evidence that the result was not biased by missing outcome data?**:
+
+**3.3: Could missingness in the outcome depend on its true value?**:
+
+**3.4: Is it likely that missingness in the outcome depended on its true value?**:
+
+#### Domain 4: Measurement of Outcome
+
+\*\*4.1: Was the method of measuring the outcome inappropriate?:
 
 **Intervention Group**: target a systolic blood pressure &lt; 140 mm Hg within 1 hour of randomization and maintain this level for 7 days. Specific BP-lowering treatments were left to the discretion of local clinicians.
 

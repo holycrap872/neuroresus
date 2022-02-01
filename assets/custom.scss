@@ -1,22 +1,9 @@
-/* outfit-300 - latin */
-@font-face {
-  font-family: 'Outfit';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/outfit-v2-latin-300.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('../fonts/outfit-v2-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/outfit-v2-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/outfit-v2-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/outfit-v2-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/outfit-v2-latin-300.svg#Outfit') format('svg'); /* Legacy iOS */
-}
-
 .activity-step {
   @extend .b--dark-green, .pr3, .pv1, .bw1, .ba, .mv3;
   border-color: #CFE3DC;
   padding-left: 4rem;
   position: relative;
+  line-height: 1.5em;
 }
 
 .activity-step > :first-child {
@@ -45,6 +32,17 @@
   margin-left: -1rem;
 }
 
-.emphasis {
-  font-size: 1.5rem;
-}
+/* -----------div tips------------- */
+
+div.meta {
+    padding: 30px;
+    margin: 0;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 120px;
+    color: #333;
+    background-color: #bed3ec;
+    border: solid 5px #dfedff;
+    line-height: 1.5em;
+  }

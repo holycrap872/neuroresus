@@ -46,3 +46,31 @@ div.meta {
     border: solid 5px #dfedff;
     line-height: 1.5em;
   }
+  
+div.todo {
+    padding: 30px;
+    margin: 0;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    min-height: 120px;
+    color: #f5f2f0;
+    background-color: #e6520e;
+    border: solid 5px #eac0ad;
+    line-height: 1.5em;
+  }
+  
+div.emphasis {
+  font-size: 1.15em;  
+  line-height: 1.5em;
+  padding: 30px;
+  margin: 0;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  color: #333;
+  background-color: #d5cee6;
+  border: solid 5px #746e83;
+  line-height: 1.5em;
+  }

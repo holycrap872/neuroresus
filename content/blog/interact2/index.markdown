@@ -13,9 +13,23 @@ csl: [../../../static/references/nikhil.csl]
 link-citations: true
 ---
 
-<div class="meta">
+<div class="emphasis">
 
-In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering the blood pressure to a target SBP &lt; 140 mm Hg improve death or major disability at 90 days when compared to a target SBP &lt; 180 mm Hg?
+INTERACT-2 was the first large, multicenter, randomized trial to evaluate the effect of rapidly lowering blood pressure to a specific target in patients presenting with acute intracerebral hemorrhage within 6 hours of symptom onset.
+
+2839 patients were randomized to achieve a blood pressure target of &lt; 180 mm Hg (considered guideline-based treatment at that time) or &lt; 140 mm Hg (intensive blood pressure control).
+
+The primary outcome was death or severe disability at 90 days, as defined by a modified Rankin score (mRs) of 3-6.
+
+At 90 days, 56% of patients in the guideline-recommended group were dead or severely disabled, compared to 52% of patients in the intensive-treatment group. This translated to an **OR 0.87 (95% CI 0.75 - 1.01)** in favor of the intensive-treatment group. A secondary ordinal analysis across the entire range of the mRS found a similar result: OR 0.87 (95% CI 0.77–1.00) in favor of the intensive-treatment group.
+
+There was no indication of a difference in adverse events between the two groups, including neurologic deterioration, hematoma expansion, or severe hypotension.
+
+The results of this trial suggest that achieving a blood pressure target of &lt; 140 mm Hg is safe and likely effective in improving outcomes. However, the mechanism by which this is achieved is unclear, as there was no apparent difference in rates of hematoma expansion between the two groups. Moreover, results from ATACH-2 suggest that …
+
+</div>
+
+In patients presenting with acute primary intracerebral hemorrhage (ICH) with a systolic blood pressure between 150-220 mm Hg, does lowering blood pressure to a target SBP &lt; 140 mm Hg improve death or major disability at 90 days when compared to a target SBP &lt; 180 mm Hg?
 
 **Published on**: 6/20/2013  
 **Journal**: New England Journal of Medicine  
@@ -23,11 +37,9 @@ In patients presenting with acute primary intracerebral hemorrhage (ICH) with a 
 **PMID**: [23713578](https://pubmed.ncbi.nlm.nih.gov/23713578)  
 **RCT Identifier**: [NCT00716079](http://clinicaltrials.gov/show/NCT00716079)
 
-</div>
-
 ## Clinical and Historical Context
 
-The onset of intracerebral hemorrhage is often accompanied by an acute hypertensive response, which can reach very high levels and is associated with hematoma expansion and poor outcome. Previous AHA/ASA Guidelines<sup>[1](#ref-broderickGuidelinesManagementSpontaneous2007)</sup> recommended maintaining an SBP &lt; 180 and/or a MAP &lt; 110 to best balance the risks of hematoma expansion and maintaining an adequate cerebral perfusion pressure. However, this was not based on any robust evidence as no high-quality observational studies or randomized trials had been conducted.
+The onset of intracerebral hemorrhage is often accompanied by an acute hypertensive response, which can reach very high levels and is associated with hematoma expansion and poor outcome. Previous AHA/ASA Guidelines<sup>[1](#ref-broderickGuidelinesManagementSpontaneous2007)</sup> recommended maintaining an SBP &lt; 180 and/or a MAP &lt; 110 to best balance the risks of hematoma expansion and maintaining an adequate cerebral perfusion pressure. However, this was not based on any robust evidence as no high-quality observational studies or randomized trials had been conducted at that time.
 
 INTERACT-2 was the first randomized trial to evaluate the safety and efficacy of early intensive lowering of blood pressure on clinical outcomes.
 
@@ -40,6 +52,8 @@ The mean age of the population was about 63 years, with 2/3 being male and 2/3 a
 Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10 (IQR 6 - 15) and median hematoma volume of 11 mL (IQR 6-19) with approximately one-third of bleeds having intraventricular extension and the vast majority with a deep hematoma location (83%). Only about 7% of patients were intubated and 3% of patients required an EVD.
 
 ## Study Protocol
+
+<div class="meta">
 
 ### Risk of Bias Assessment
 
@@ -86,6 +100,8 @@ Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10
 #### Domain 4: Measurement of Outcome
 
 \*\*4.1: Was the method of measuring the outcome inappropriate?:
+
+</div>
 
 **Intervention Group**: target a systolic blood pressure &lt; 140 mm Hg within 1 hour of randomization and maintain this level for 7 days. Specific BP-lowering treatments were left to the discretion of local clinicians.
 
@@ -155,6 +171,16 @@ Other post-hoc analyses have suggested that patients presenting with very-high B
 ### Further Reading
 
 **Resource:** To learn how to style your links with color with accessibility in mind, check out the resource by WebAIM about [Link Text and Appearance](https://webaim.org/techniques/hypertext/link_text#appearance)
+
+</div>
+
+<div class="todo">
+
+Section headings: should they be in the form of a question? (e.g., Patient Population = Who Was Enrolled in the Study?)
+
+Table of Contents for navigation
+
+Footnotes or just include in-line links?
 
 </div>
 

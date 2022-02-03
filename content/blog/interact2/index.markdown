@@ -57,6 +57,419 @@ Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10
 
 ### Risk of Bias Assessment
 
+<div id="nxrsnczhvl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#nxrsnczhvl .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#nxrsnczhvl .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#nxrsnczhvl .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#nxrsnczhvl .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#nxrsnczhvl .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#nxrsnczhvl .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#nxrsnczhvl .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#nxrsnczhvl .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#nxrsnczhvl .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#nxrsnczhvl .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#nxrsnczhvl .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#nxrsnczhvl .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#nxrsnczhvl .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#nxrsnczhvl .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nxrsnczhvl .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#nxrsnczhvl .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#nxrsnczhvl .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#nxrsnczhvl .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#nxrsnczhvl .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#nxrsnczhvl .gt_left {
+  text-align: left;
+}
+
+#nxrsnczhvl .gt_center {
+  text-align: center;
+}
+
+#nxrsnczhvl .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#nxrsnczhvl .gt_font_normal {
+  font-weight: normal;
+}
+
+#nxrsnczhvl .gt_font_bold {
+  font-weight: bold;
+}
+
+#nxrsnczhvl .gt_font_italic {
+  font-style: italic;
+}
+
+#nxrsnczhvl .gt_super {
+  font-size: 65%;
+}
+
+#nxrsnczhvl .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">id</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Name</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Study</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">1.1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">1.2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">1.3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 1: Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">2.1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">2.2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">2.6</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 2: Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 3: Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">3.1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 4: Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">4.1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">4.2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">5.1</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">5.2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">5.3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 5: Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Overall Risk of Bias Judgment</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">Database ID (from Field 2)</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">2.3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 2: Comments</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">3.2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 3: Comments</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Domain 4: Comments</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">createdTime</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">recORavlPJz1uLNoW</td>
+<td class="gt_row gt_left">INTERACT-2</td>
+<td class="gt_row gt_center">recO4uOYBnJu4PCmN</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">Probably No</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_left">Low Risk</td>
+<td class="gt_row gt_center">11</td>
+<td class="gt_row gt_left">No</td>
+<td class="gt_row gt_left">While this was an unblinded study, there was blinded assessment of outcomes at 90 days. 
+
+There was also no apparent difference in the care received by patients in either group.</td>
+<td class="gt_row gt_left">Yes</td>
+<td class="gt_row gt_left">Primary outcome data was not missing for many patients (only 46, about 2% of those randomized).
+
+QoL data was missing for about 15% of patients. Its unclear what this missingness signifies, as the missing data could bias the outcome both toward or away from the null. It is likely that patients that are both doing very well or very poorly would be equally likely to not follow-up.
+
+Hematoma expansion data was only available for about 1000 patients, which reduced statistical power to determine a difference between the two groups in this realm.</td>
+<td class="gt_row gt_left">See above (Domain 3) regarding missing data comments</td>
+<td class="gt_row gt_left">2022-02-03T16:11:26.000Z</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+
 #### Domain 1: Randomization
 
 **Risk of bias**: Low
@@ -69,21 +482,21 @@ Most patients had mild ICH: median GCS was 14 (IQR 12 - 15), median NIHSS was 10
 
 #### Domain 2: Effect of Assignment to Intervention
 
-**Risk of bias**:
+**Risk of bias**: Low
 
-**2.1: Were participants aware of their assigned intervention during the trial?**:
+**2.1: Were participants aware of their assigned intervention during the trial?**: Yes
 
-**2.2: Were carers and people delivering the interventions aware of participants’ assigned intervention during the trial?**:
+**2.2: Were carers and people delivering the interventions aware of participants’ assigned intervention during the trial?**: Yes
 
-**2.3: Were there deviations from the intended intervention that arose because of the trial context?**:
+**2.3: Were there deviations from the intended intervention that arose because of the trial context?**: No
 
-**2.4: Were these deviations likely to have affected the outcome?**:
+**2.4: Were these deviations likely to have affected the outcome?**: N/A
 
-**2.5: Were these deviations from intended intervention balanced between groups?**:
+**2.5: Were these deviations from the intended intervention balanced between groups?**: Yes
 
-**2.6: Was an appropriate analysis used to estimate the effect of assignment to intervention?**:
+**2.6: Was an appropriate analysis used to estimate the effect of assignment to intervention?**: Yes
 
-**2.7: Was there potential for a substantial impact (on the result) of the failure to analyze participants in the group to which they were randomized?**:
+**2.7: Was there potential for a substantial impact (on the result) of the failure to analyze participants in the group to which they were randomized?**: No
 
 #### Domain 3: Missing Outcome Data
 

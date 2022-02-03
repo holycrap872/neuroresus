@@ -14,9 +14,13 @@ airtable <- airtabler::airtable(
 # Select "Risk of Bias" table and convert into a tibble
 rob.dataframe <- tibble(airtable$`Risk of Bias Assessment`$select())
 
-# Filter to only show current study
+# Filter to only show current study and convert to long format
 rob.table <- rob.dataframe %>%
   filter(id == 'recORavlPJz1uLNoW') %>%
-  gt()
+  select(-id, -Study, -createdTime, -`Database ID (from Field 2)`) %>%
+  pivot_longer(cols = -Name,
+               names_to = "Question",
+               values_to = "Answer") %>%
+  select(-Name)
 
-rob.table
+gt(rob.table)

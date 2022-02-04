@@ -3,10 +3,9 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
+  Hello, my name is Nikhil Patel. I'm interested in raising the standard of medical care.
 ---
 
 <!-- this is a subheadline -->
-I'm a Hugo theme you'll want to hang out with. :fr: 
-
-The page you are reading is based on a markdown file- look in `content/about/` to edit. There, look inside the `header`, `main`, and `sidebar` folders to get started building your own "about" page.
+I believe it's difficult to stay up to date on the latest medical research. My hope is
+that this site serves as a basis for people to learn, understand and improve.
